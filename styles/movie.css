@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    margin: 100px;
+}
+
+.movie-details-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.movie-details-left{
+    font-size: 19px;
+}
+
+.movie-details-left > h1{
+    font-size: 24px;
+}
+
+.movie-details-right{
+    font-size: 19px;
+}
+
+.movie-details-rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-details-rating > h1{
+    font-size: 24px;
+    
+}
+
+.movie-details-rate > img{
+    width: 25px;
+}
+
+.movie-details-desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movie-details-image > img{
+    width: 22rem;
+    height: 32rem;
+}
+
+.movie-details-trailer{
+    width: 56rem;
+    height: 32rem;
+}
