@@ -7,6 +7,13 @@
     margin: 100px;
 }
 
+.movie-details{
+    /* padding: 120px; */
+
+    /* background-color: black;
+    color: white; */
+}
+
 .movie-details-heading{
     display: flex;
     flex-direction: row;
@@ -57,4 +64,31 @@
 .movie-details-trailer{
     width: 56rem;
     height: 32rem;
+}
+
+.movie-types{
+    margin: 20px 0;
+}
+
+.movie-type{
+    font-size: 15px;
+    padding: 5px 13px;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+
+.movie-para-description{
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+.credit{
+    font-size: 20px;
+    margin: 17px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.credit > strong{
+    padding: 0 6px;
 }
