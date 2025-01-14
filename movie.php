@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./styles/movie.css" />
 </head>
 <body>
+    <?php
+        include './Components/Navbar.php';
+    ?>
     <div class="main">
         <div class="movie-details">
             <div class="movie-details-heading">
